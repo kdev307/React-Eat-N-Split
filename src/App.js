@@ -69,8 +69,11 @@ function App() {
                 </Button>
             </div>
             {selectedFriend && (
-                <FormSplitBill selectedFriend={selectedFriend} onSplitBill={handleSplitBill}
-key={selected friend.id} />
+                <FormSplitBill
+                    selectedFriend={selectedFriend}
+                    onSplitBill={handleSplitBill}
+                    key={selectedFriend.id}
+                />
             )}
         </div>
     );
